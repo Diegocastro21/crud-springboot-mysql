@@ -8,5 +8,10 @@
 <body>
   <h1>Datos de la persona</h1>
   <a th:href="@{/}">Regresar</a>
+<br/>
+<form th:action="@{/guardar}" method="post" th:object="${persona}">
+    <labeln for="nombre">Nombre:</labeln>
+    <input type="text" name="nombre" th:field="*{nombre}"/>
+</form>
 </body>
 </html>

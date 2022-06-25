@@ -6,6 +6,17 @@ import java.util.List;
 
 public interface PersonaService {
 
+
+    /**
+     * En esta interfaz se declaran los metodos para
+     * el crud que se va  utilizar
+     * listarPersonas
+     * Guardar
+     * eliminar
+     * encotrarPersona
+     *
+     * @return
+     */
     public List<Persona> listarPersonas();
 
     public void guardar(Persona persona);

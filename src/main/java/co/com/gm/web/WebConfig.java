@@ -13,6 +13,13 @@ import java.util.Locale;
 @Configuration
 public class WebConfig implements WebMvcConfigurer {
 
+    /**
+     * En esta clase se aplican las configuraciones
+     * para el manejo de idiomas aplicando
+     * las internationalization
+     * @return
+     */
+
     @Bean
     public LocaleResolver localeResolver(){
         var slr = new SessionLocaleResolver();
@@ -25,7 +32,6 @@ public class WebConfig implements WebMvcConfigurer {
         var lci = new LocaleChangeInterceptor();
         lci.setParamName("lang");
         return lci;
-
     }
 
     @Override

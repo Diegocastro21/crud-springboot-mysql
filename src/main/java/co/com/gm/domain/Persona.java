@@ -11,6 +11,21 @@ import lombok.Data;
 @Table(name = "persona")
 public class Persona implements Serializable{
 
+
+    /**
+     * Esta clase es la modelo representativo
+     * de la clase persona en la base de datos mysql
+     * @Entity
+     * y cuenta con todos sus atributos
+     * y metodos proporcionados por Lombok mediante la
+     * anotacion @Data
+     * tambien hacemos uso de las validaciones
+     * para que no puedan estar vacios
+     * y en el caso de el email este sea valido cuente
+     * con @.
+     */
+
+
     private static final long serialVersionUID = 1L;
 
     @Id

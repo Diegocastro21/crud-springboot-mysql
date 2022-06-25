@@ -11,6 +11,14 @@ import java.util.List;
 @Service
 public class PersonaServiceImpl implements PersonaService{
 
+
+    /**
+     *
+     * PersonaServiceImpl esta implementando los metodos dictados
+     * en la interfaz asi se aplica la alta cohesion y
+     * bajo acoplamiento.
+     *
+     */
     @Autowired
     private PersonaDao personaDao;
 

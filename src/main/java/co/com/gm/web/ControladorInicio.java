@@ -17,6 +17,14 @@ import javax.validation.Valid;
 @Slf4j
 public class ControladorInicio {
 
+
+    /*
+    * En esta clase controladorInicio
+    * se aplica el crud con spring framework
+    * la cual cuenta con las ayuda de springweb
+    * y mediantes las anotaciones realizamo las
+    * tareas necesarias
+    * */
     @Autowired
     private PersonaService personaService;
 

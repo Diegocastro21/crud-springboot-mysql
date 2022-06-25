@@ -7,11 +7,11 @@
 </head>
 <body>
 <header th:fragment="header">
-  <h1>Control de Clientes</h1>
+  <h1 th:text="#{plantilla.titulo}">Titulo</h1>
 </header>
 
 <footer th:fragment="footer">
-  <p>DERECHOS RESERVADOS <a href="https://diegocastro.ml/" target="_blank">diegocastro.ml</a> </p>
+  <p> [[#{plantilla.pie-pagina}]]  <a href="https://diegocastro.ml/" target="_blank">diegocastro.ml</a> </p>
 </footer>
 </body>
 </html>
